@@ -1,0 +1,48 @@
+h1{
+    font-weight: 700;
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+    text-align: center;
+}
+#column1{
+    width: 45%;
+    float: left;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border:1px solid red;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+#column2{
+    width: 45%;
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border:1px dashed red;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+#last {
+    margin-top: 60%;
+    width: 100%;
+}
+h3{
+    font-weight: 500;
+}
+li{
+    font-weight: 300;
+}
+#roman{
+    list-style-type: upper-roman;
+}
+
+#link {
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+    float: right;
+    text-decoration: none;
+    color: #2d0af3
+}
+
+#link:hover {
+    text-decoration: underline;
+    color: #a90af381;
+}
