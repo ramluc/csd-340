@@ -1,0 +1,39 @@
+h1,h3,figure{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+}
+#image-gallery{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+figcaption {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: 400;
+}
+.gallery-item {
+    border: 1px solid rgba(185, 63, 8, 1);
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+#link {
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+    float: right;
+    text-decoration: none;
+    color: #2d0af3
+}
+
+#link:hover {
+    text-decoration: underline;
+    color: #a90af381;
+}
+/*By Lucas Ramsey*/
